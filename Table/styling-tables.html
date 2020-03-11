@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tables</title>
+    <style>
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border: 5px solid darkred;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 5px solid darkred;
+            padding: 5px;
+        }
+
+        th {
+            color: white;
+            background-color: darkred;
+        }
+
+        tr:hover {
+            background: gold;
+        }
+
+        td {
+            text-align: center;
+            min-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>STYLING TABLES</h1>
+            <nav>
+                <a href="index.html">Table Basics</a>
+                <a href="styling-tables.html">Styling Tables</a>
+                <a href="calendar.html">Creating a Calendar</a>
+            </nav>
+            <p>&nbsp;</p>
+            <h2>STYLING TABLES</h2>
+            <table>
+                 <!-- tr>th*8 -->
+                <tr>
+                    <th></th>
+                    <th>SUNDAY</th>
+                    <th>MONDAY</th>
+                    <th>TUESDAY</th>
+                    <th>WEDNESDAY</th>
+                    <th>THURSDAY</th>
+                    <th>FRIDAY</th>
+                    <th>SATURDAY</th>
+                </tr>
+                <!-- ((tr>td*8)*12 -->
+                <tr>
+                    <th>7:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>8:00 am</th>
+                    <td></td>
+                    <td rowspan=2>STRENGTH UPPER BODY</td>
+                    <td rowspan=2>STRENGTH LOWER BODY</td>
+                    <td></td>
+                    <td rowspan=2>STRENGTH UPPER BODY</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:00 am</th>
+                    <td></td>
+                    <td rowspan=4>COMPUTER ART</td>
+                    <td rowspan=4>WEB 105</td>
+                    <td rowspan=4>COMPUTER ART</td>
+                    <td rowspan=4>WEB 105</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>11:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <th>12:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                     
+                </tr>
+                <tr>
+                    <th>1:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                    
+                   
+                </tr>
+                <tr>
+                    <th>2:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>3:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>4:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5:00 pm</th>
+                    <td></td>
+                    <td>YOGA</td>
+                    <td>POWER FITNESS</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>6:00 pm</th>
+                    <td></td>
+                    <td>MARTIAL ARTS</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>7:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td>CARDIO KICK BOXING</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </header>
+    </div>
+</body>
+
+</html>
