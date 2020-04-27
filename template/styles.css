@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+header{
+    display: block;
+    background-image: url('fullmoon.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    font-family: 'Prompt', sans-serif, arial, helvetica;
+    color: black;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    }
+nav{
+    font-family: 'Oswald', sans-serif, arial, helvetica;
+    text-align: center;
+    font-size: 18px;
+    line-height: 3;
+      text-shadow: .5px .5px white;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: black;
+    background:grey;
+    border: 1.5px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: black;
+    background: white;
+    }
+body {
+    font-family: sans-serif, arial, helvetica;
+    padding: 10px;
+    margin: 10px;
+	line-height: 1;
+	font-size: 1em;
+}
+    main{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.static {
+  position: static;
+  border: 3px solid beige;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}
+footer, main, aside, article, div{
+    clear: both;
+}
+
+footer{
+	text-align:center;
+	padding: 20px;
+	color: red;
+}
+.left{
+    clear: both; 
+    float: left;
+    padding: 20px;
+}
+.right{
+    clear:both;
+    float: right;
+    padding: 20px;
+}
+
+.center{
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+
+img{
+    box-sizing: border-box;
+    margin: 10px;
+    display: block;
+}
+
+.horizontal-menu{
+    display: inline;
+    margin-left: 20px;
+   
+}
+
+.horizontal-menu a{
+	text-decoration:none;
+}
+
+
+.top{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    background: white;
+}
+
+h1{
+    color: black;
+    font-size: 2em;
+    margin: 20px;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 20px;
+}
+h3{
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+	padding: 10px;
+}
+
+aside{
+    clear: both;
+    float: right;
+    width:33%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: auto;
+    border: 11px solid black;
+}
+article{
+    clear: both;
+    float: left;
+    width:33%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    overflow: auto;
+    border: 11px solid black;
+}
+section{
+    clear: both;
+    width:88%;
+    box-sizing: border-box;
+    padding: 10px;
+
+    overflow: auto;
+    border: 11px solid black;
+}
+#surfing{
+    width: 33%;
+    margin: 20px;
+    float: right;
+}
+#fullmoon{
+    width: 33%;
+    float: left;
+    margin: 20px;
+}
+#moon{
+    width: 5%;
+    margin: 10px;
+}
